@@ -13,13 +13,25 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\동빈나">
+      <UniqueIdentifier>{3da36c70-8abc-4279-bc2c-d372eb24da2e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="피보나치 수열%28탑다운%29.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="개미 전사.cpp">
+      <Filter>소스 파일\동빈나</Filter>
     </ClCompile>
     <ClCompile Include="피보나치 수열(바텀업).cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\동빈나</Filter>
+    </ClCompile>
+    <ClCompile Include="피보나치 수열%28탑다운%29.cpp">
+      <Filter>소스 파일\동빈나</Filter>
+    </ClCompile>
+    <ClCompile Include="1로 만들기.cpp">
+      <Filter>소스 파일\동빈나</Filter>
+    </ClCompile>
+    <ClCompile Include="효율적인 화폐 구성.cpp">
+      <Filter>소스 파일\동빈나</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

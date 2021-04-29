@@ -5,7 +5,7 @@
 using namespace std;
 
 // 한 번 계산된 결과를 메모이제이션(Memoization)하기 위한 배열 초기화
-long long d[1000] = {0};
+long long d[100] = {0};
 
 // 피보나치 함수(Fibonacci Function) 재귀함수로 구현(탑다운 다이나믹 프로그래밍)
 long long fibo(int x)
