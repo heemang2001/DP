@@ -27,7 +27,8 @@ int main()
 	{
 		for (int j = Money[i]; j <= M; j++)
 		{
-			// (i-k)원을 만드는 방법이 존재하는 경우
+			// j : 금액 , k : 각 화폐의 단위
+			// (j-k)원을 만드는 방법이 존재하는 경우
 			if (DP[j - Money[i]] != 10001)
 			{
 				DP[j] = min(DP[j], DP[j - Money[i]] + 1);
@@ -35,6 +36,7 @@ int main()
 		}
 	}
 
+	// 최종적으로 M원을 만드는 방법이 없는 경우
 	if (DP[M] == 10001)
 	{
 		cout << -1 << '\n';
