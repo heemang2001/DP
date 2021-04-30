@@ -33,5 +33,8 @@
     <ClCompile Include="효율적인 화폐 구성.cpp">
       <Filter>소스 파일\동빈나</Filter>
     </ClCompile>
+    <ClCompile Include="금광.cpp">
+      <Filter>소스 파일\동빈나</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
