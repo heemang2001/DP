@@ -6,7 +6,7 @@ using namespace std;
 
 //int N; // 1 <= N <= 2000 
 //vector<int> vecPower; // 각 병사의 전투력은 10,000,000보다 작거나 같은 자연수
-//int DP[10000000];
+//int DP[2000];
 //
 //int main()
 //{
