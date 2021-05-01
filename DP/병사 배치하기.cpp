@@ -59,6 +59,7 @@ int main()
 	reverse(v.begin(), v.end());
 
 	// 다이나믹 프로그래밍을 위한 1차원 DP테이블 초기화
+	// dp[i] = array[i]를 마지막 원소로 가지는 부분 수열의 최대 길이
 	int dp[2000];
 	for (int i = 0; i < n; i++)
 	{
