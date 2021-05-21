@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\동빈나">
       <UniqueIdentifier>{3da36c70-8abc-4279-bc2c-d372eb24da2e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\백준">
+      <UniqueIdentifier>{581c283e-c49c-48b3-9b1e-a0115a9a5a8e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="개미 전사.cpp">
@@ -38,6 +41,9 @@
     </ClCompile>
     <ClCompile Include="병사 배치하기.cpp">
       <Filter>소스 파일\동빈나</Filter>
+    </ClCompile>
+    <ClCompile Include="1로 만들기_2.cpp">
+      <Filter>소스 파일\백준</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
