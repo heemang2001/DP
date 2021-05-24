@@ -23,7 +23,7 @@ void dfs(int N, int number, int count, int currentNumber)
 	int nTemp = 0;
 
 	// 최대 N의 사용횟수는 9번
-	for (int i = 0; i + count <= 9; i++)
+	for (int i = 0; i + count < 9; i++)
 	{
 		// N부터 NN, NNN, NNNN .......
 		nTemp = nTemp * 10 + N;
@@ -51,6 +51,7 @@ int main()
 {
 	cout << solution(5, 12) << '\n'; // 4
 	cout << solution(2, 11) << '\n'; // 3
+	cout << solution(2, 2) << '\n';  // 1
 
 	return 0;
 }
