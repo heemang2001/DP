@@ -23,15 +23,15 @@ void dfs(int N, int number, int count, int currentNumber)
 	int nTemp = 0;
 
 	// 최대 N의 사용횟수는 9번
-	for (int i = 0; i + count <= 9; i++)
+	for (int i = 1; i <= 9; i++)
 	{
 		// N부터 NN, NNN, NNNN .......
 		nTemp = nTemp * 10 + N;
 
-		dfs(N, number, count + 1 + i, currentNumber + nTemp);
-		dfs(N, number, count + 1 + i, currentNumber - nTemp);
-		dfs(N, number, count + 1 + i, currentNumber * nTemp);
-		dfs(N, number, count + 1 + i, currentNumber / nTemp);
+		dfs(N, number, count + i, currentNumber + nTemp);
+		dfs(N, number, count + i, currentNumber - nTemp);
+		dfs(N, number, count + i, currentNumber * nTemp);
+		dfs(N, number, count + i, currentNumber / nTemp);
 	}
 }
 
