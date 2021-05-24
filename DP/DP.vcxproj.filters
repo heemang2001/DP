@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\백준">
       <UniqueIdentifier>{581c283e-c49c-48b3-9b1e-a0115a9a5a8e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\프로그래머스">
+      <UniqueIdentifier>{d2193f87-0e87-46b2-b976-adb6c8d68c39}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="개미 전사.cpp">
@@ -44,6 +47,9 @@
     </ClCompile>
     <ClCompile Include="1로 만들기_2.cpp">
       <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="N으로 표현%28DFS%29.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
